@@ -160,8 +160,9 @@ a{
   font-size: 40px;
   padding-bottom: 10px;
 }
-.serviceTitle h3{
+.serviceTitle p {
   font-size: 14px;
+  font-weight: bold;
 }
 
 .serviceList {
