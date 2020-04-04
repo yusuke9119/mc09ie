@@ -1,0 +1,176 @@
+/*てすとてすとてすと*/
+
+
+a{
+  text-decoration: none;
+}
+
+.header {
+  height: 80px;
+  margin-bottom: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+.logo img {
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navList a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 25px;
+}
+
+.contactBtn {
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 0 50px;
+  background-color: #30d0ed;
+  transition: 1s;
+}
+
+.contactBtn:hover {
+  background-color: #149fe0;
+  transition: 1s;
+}
+
+.mainVisual {
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+.visualImage {
+}
+
+.visualImage img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.visualText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.visualText img {
+  width: 80%;
+  padding-bottom: 1%;
+}
+
+.news {
+  height: 235px;
+  background-color: #edfcff;
+}
+.newsContainer {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+.newsLogo h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #019bdf;
+  padding-bottom: 15px;
+}
+.newsLogo a {
+  font-style: 12px;
+  color: #333333;
+}
+
+.newsList li {
+  width: 1050px;
+}
+
+.listItem a {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #019bdf;
+}
+
+.day,.newsTitle {
+  font-size: 13px;
+  color: #333333;
+}
+.category {
+  width: 80px;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #019bdf;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0 30px;
+}
+
+.service {
+  height: 600px;
+}
+
+.serviceContainer {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.serviceTitle {
+  color: #019bdf;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.serviceTitle h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.serviceTitle p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.serviceList {
+  display: flex;
+  justify-content: space-between;
+}
+.serviceList li {
+  width: 380px;
+  height: 220px;
+  background-color: #e8e8e8;
+}
